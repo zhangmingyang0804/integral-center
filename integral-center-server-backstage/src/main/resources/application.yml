@@ -1,0 +1,30 @@
+server:
+    port: 8081
+spring:
+    datasource:
+        name: integral-center
+        url: jdbc:mysql://121.43.61.217:3306/integral-center?serverTimezone=Asia/Shanghai&useSSL=false
+        username: root
+        password: 123456
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        filters: stat
+        max-active: 20
+        initial-size: 1
+        max-wait: 60000
+        minIdle: 1
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 300000
+        validation-query: select 'x'
+        test-while-idle: true
+        test-on-borrow: false
+        test-on-return: false
+        pool-prepared-statements: true
+        max-conn-lifetime-millis: 20
+        initialize: false
+        sql-script-encoding: utf-8
+    redis:
+        host: uatredis.leimondata.cn
+        port: 6379
+        password: shujing#2020
+        database: 8
