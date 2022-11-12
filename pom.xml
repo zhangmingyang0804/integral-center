@@ -24,61 +24,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <com.alibaba.version>1.2.83</com.alibaba.version>
-        <io.jsonwebtoken.version>0.6.0</io.jsonwebtoken.version>
-        <org.apache.commons.version>3.5</org.apache.commons.version>
-        <cn.com.antcloud.api.version>2.2.20171024</cn.com.antcloud.api.version>
-        <org.apache.commons.codec.version>1.4.0</org.apache.commons.codec.version>
-        <cn.com.antcloud.api.zolozfaceverify.version>2.2.20171211</cn.com.antcloud.api.zolozfaceverify.version>
-        <com.alipay.sdk.version>3.0.0</com.alipay.sdk.version>
-        <net.sf.json-lib.version>2.4</net.sf.json-lib.version>
-        <io.springfox.version>2.7.0</io.springfox.version>
-        <org.apache.httpcomponents.version>4.5.3</org.apache.httpcomponents.version>
-        <org.mybatis.spring.boot.version>1.3.1</org.mybatis.spring.boot.version>
-        <com.alibaba.druid.version>1.1.5</com.alibaba.druid.version>
-        <org.apache.httpcomponents.version>4.5.5</org.apache.httpcomponents.version>
-        <commons-net.version>3.6</commons-net.version>
-        <org.projectlombok.version>1.16.18</org.projectlombok.version>
-        <org.springframework.cloud.version>1.4.4.RELEASE</org.springframework.cloud.version>
-        <commons-lang3.version>3.1</commons-lang3.version>
-        <commons-fileupload.version>1.3.3</commons-fileupload.version>
-        <org.apache.directory.studio.version>2.4</org.apache.directory.studio.version>
-        <maven-filtering.version>1.1</maven-filtering.version>
-        <maven-common-artifact-filters.version>1.4</maven-common-artifact-filters.version>
-        <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
-        <maven-filtering.version>1.1</maven-filtering.version>
-        <maven-common-artifact-filters.version>1.4</maven-common-artifact-filters.version>
-        <maven-dependency-tree.version>2.1</maven-dependency-tree.version>
-        <maven-shared-incremental.version>1.1</maven-shared-incremental.version>
-        <framework.version>3.0</framework.version>
-        <cdpackage.version>1.0</cdpackage.version>
-        <bcprov-jdk15on.version>1.0</bcprov-jdk15on.version>
-        <esb_client.version>1.3.1</esb_client.version>
-        <essc3x_pboc2_20120726.version>1.0</essc3x_pboc2_20120726.version>
-        <security_tools.version>1.0</security_tools.version>
-        <ESBFileServer.verison>0.0.1</ESBFileServer.verison>
-        <x509.version>1.0</x509.version>
-        <logstash-logback-encoder.version>5.1</logstash-logback-encoder.version>
-        <org.mybatis.generator.version>1.3.2</org.mybatis.generator.version>
-        <mysql.version>8.0.26</mysql.version>
-        <SunECMClientV.version>3.1.5</SunECMClientV.version>
-        <xstream.version>1.3.1</xstream.version>
-        <sun-ws-allv.version>3.1.5</sun-ws-allv.version>
-        <com.fasterxml.jackson.core.vserion>2.8.8</com.fasterxml.jackson.core.vserion>
-        <jodd.vesion>3.2.6</jodd.vesion>
-        <com.google.zxing.version>3.3.0</com.google.zxing.version>
-        <hektk.version>4.0.2.1</hektk.version>
-        <deviceTls.version>3.3.1.0</deviceTls.version>
-        <logbackCfca.version>4.2.1.0</logbackCfca.version>
-        <sadk.version>3.6.2.1</sadk.version>
-        <hutool-all.version>5.4.3</hutool-all.version>
-        <!--  <com.google.zxing.version>3.3.0</com.google.zxing.version>  -->
-
         <spring-context.version>5.3.15</spring-context.version>
         <spring-data-redis.version>2.6.1</spring-data-redis.version>
         <fastjson.version>1.2.83</fastjson.version>
         <commons-lang.version>2.5</commons-lang.version>
         <lombok.version>1.18.22</lombok.version>
+        <com.alibaba.druid.version>1.1.5</com.alibaba.druid.version>
+        <mysql.version>8.0.26</mysql.version>
+        <org.mybatis.spring.boot.version>1.3.1</org.mybatis.spring.boot.version>
     </properties>
 
 

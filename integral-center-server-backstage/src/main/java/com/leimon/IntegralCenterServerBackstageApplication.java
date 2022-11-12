@@ -1,8 +1,10 @@
 package com.leimon;
 
+import com.leimon.common.utils.SpringContextUtils;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * @description:
@@ -15,6 +17,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.leimon.dao.mapper")
 public class IntegralCenterServerBackstageApplication {
     public static void main(String[] args) {
-        SpringApplication.run(IntegralCenterServerBackstageApplication.class, args);
+        ConfigurableApplicationContext applicationContext = SpringApplication.run(IntegralCenterServerBackstageApplication.class, args);
+        SpringContextUtils.setApplicationContext(applicationContext);
     }
 }
